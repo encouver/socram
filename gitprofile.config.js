@@ -17,8 +17,8 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'socram',
-    dev: 'socram',
+    medium: 'encouver',
+    dev: 'encouver',
     stackoverflow: '', // format: userid/username
     website: '',
     phone: '',
