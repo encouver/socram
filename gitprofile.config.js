@@ -26,15 +26,18 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'TypeScript',
     'Java',
     'Python',
+    'Angular',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'SpringBoot',
+    'SQLServer',
+    'Solidity',
     'MySQL',
     'PostgreSQL',
     'Git',
@@ -45,17 +48,17 @@ const config = {
   experiences: [
     {
       company: 'Metalsa',
-      position: 'Position',
-      from: 'September 2021',
+      position: 'Software Developer',
+      from: 'February 2019',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.metalsa.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'BSD Enterprise',
+      position: 'Sofware Developer',
+      from: 'February 2019',
+      to: 'September 2016',
+      companyLink: 'http://www.bsdenterprise.com/',
     },
   ],
   /* certifications: [
@@ -67,16 +70,16 @@ const config = {
     },
   ], */
   education: [
+    // {
+    //   institution: 'Institution Name',
+    //   degree: 'Degree',
+    //   from: '2015',
+    //   to: '2019',
+    // },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
+      institution: 'Central University of Venezuela',
+      degree: 'Computer Science',
+      from: '2006',
       to: '2014',
     },
   ],
@@ -84,24 +87,24 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'BeforeMint',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Powerful. Tools. Web3.',
+      imageUrl: 'https://beforemint.xyz/static/media/logoSocial.6043169121f44188195e.png',
+      link: 'https://beforemint.xyz',
     },
     {
-      title: 'Project Name',
+      title: 'IotSmart',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'The power of simplicity transforming the way we manage data in a new era of interconnected things, visualization and decision making.',
+      imageUrl: 'https://iotsmart.io/assets/LOGOCONTACT/logo_icon.svg',
+      link: 'https://iotsmart.io',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'encouver', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -130,34 +133,34 @@ const config = {
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
+      // 'cupcake',
+      // 'bumblebee',
+      // 'emerald',
+      // 'corporate',
+      // 'synthwave',
+      // 'retro',
+      // 'cyberpunk',
+      // 'valentine',
+      // 'halloween',
+      // 'garden',
+      // 'forest',
+      // 'aqua',
+      // 'lofi',
+      // 'pastel',
+      // 'fantasy',
+      // 'wireframe',
+      // 'black',
+      // 'luxury',
+      // 'dracula',
+      // 'cmyk',
+      // 'autumn',
+      // 'business',
+      // 'acid',
+      // 'lemonade',
+      // 'night',
+      // 'coffee',
       'winter',
-      'procyon',
+      // 'procyon',
     ],
 
     // Custom theme
