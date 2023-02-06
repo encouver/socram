@@ -56,8 +56,8 @@ const config = {
     {
       company: 'BSD Enterprise',
       position: 'Sofware Developer',
-      from: 'February 2019',
-      to: 'September 2016',
+      from: 'September 2016',
+      to: 'February 2019',
       companyLink: 'http://www.bsdenterprise.com/',
     },
   ],
