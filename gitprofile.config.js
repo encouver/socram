@@ -19,7 +19,7 @@ const config = {
     behance: '',
     medium: 'encouver',
     dev: 'encouver',
-    stackoverflow: 'socram', // format: userid/username
+    stackoverflow: '1451885/socram', // format: userid/username
     website: '',
     phone: '',
     email: 'marcospha@gmail.com',
