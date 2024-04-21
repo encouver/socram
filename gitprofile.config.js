@@ -6,7 +6,7 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
@@ -19,7 +19,7 @@ const config = {
     behance: '',
     medium: 'encouver',
     dev: 'encouver',
-    stackoverflow: '', // format: userid/username
+    stackoverflow: 'socram', // format: userid/username
     website: '',
     phone: '',
     email: 'marcospha@gmail.com',
@@ -29,13 +29,15 @@ const config = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Javascript',
     'TypeScript',
     'Java',
     'Python',
     'Angular',
-    'React.js',
-    'Node.js',
+    'React',
+    'Node',
     'SpringBoot',
+    'MongoDB',
     'SQLServer',
     'Solidity',
     'MySQL',
@@ -50,7 +52,7 @@ const config = {
       company: 'Metalsa',
       position: 'Software Developer',
       from: 'February 2019',
-      to: 'Present',
+      to: 'November 2023',
       companyLink: 'https://www.metalsa.com/',
     },
     {
@@ -70,12 +72,6 @@ const config = {
     },
   ], */
   education: [
-    // {
-    //   institution: 'Institution Name',
-    //   degree: 'Degree',
-    //   from: '2015',
-    //   to: '2019',
-    // },
     {
       institution: 'Central University of Venezuela',
       degree: 'Computer Science',
