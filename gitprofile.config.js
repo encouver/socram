@@ -62,6 +62,13 @@ const config = {
       to: 'February 2019',
       companyLink: 'http://www.bsdenterprise.com/',
     },
+    {
+      company: 'Opta Smart Solutions',
+      position: 'Sofware Developer',
+      from: 'March 2016',
+      to: ' August 2016',
+      companyLink: 'https://www.optasmart.com/',
+    },
   ],
   /* certifications: [
     {
