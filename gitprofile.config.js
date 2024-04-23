@@ -69,6 +69,13 @@ const config = {
       to: ' August 2016',
       companyLink: 'https://www.optasmart.com/',
     },
+    {
+      company: 'Eureka Solutions C.A.',
+      position: 'Co-Founder',
+      from: 'March 2014',
+      to: ' August 2016',
+      // companyLink: 'https://www.optasmart.com/',
+    },
   ],
   /* certifications: [
     {
@@ -89,6 +96,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+    {
+      title: 'AweraX',
+      description:
+        'Vision AI: See Beyond the Visible.',
+      imageUrl: 'https://awerax.com/assets/images/logo/AweraX-dark.png',
+      link: 'https://awerax.com',
+    },
     {
       title: 'BeforeMint',
       description:
